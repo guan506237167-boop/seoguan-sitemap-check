@@ -1,0 +1,4 @@
+interface:
+  display_name: "关山阅·Sitemap 检查"
+  short_description: "核对本地Sitemap XML的网址重复、格式、域名范围，并结合已提供抓取表检查失效和canonical差异。适用于提交"
+  default_prompt: "使用 $seoguan-sitemap-check，根据我提供的材料完成Sitemap 检查，保留证据与未确认项。"

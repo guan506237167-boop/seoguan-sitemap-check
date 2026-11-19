@@ -1,0 +1,38 @@
+{
+  "kind": "urlset",
+  "entries": [
+    {
+      "entry": 1,
+      "url": "https://example.com/p",
+      "network_status": "unverified"
+    },
+    {
+      "entry": 2,
+      "url": "https://example.com/p",
+      "network_status": "unverified"
+    },
+    {
+      "entry": 3,
+      "url": "https://other.example/p",
+      "network_status": "unverified"
+    }
+  ],
+  "issues": [
+    {
+      "type": "outside_host",
+      "entry": 3,
+      "url": "https://other.example/p"
+    },
+    {
+      "type": "duplicate_url",
+      "url": "https://example.com/p",
+      "count": 2
+    }
+  ],
+  "unverified": [
+    "indexing",
+    "actual lastmod truth",
+    "live HTTP responses"
+  ],
+  "scope": "local XML and optional supplied crawl export"
+}
